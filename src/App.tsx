@@ -6,12 +6,11 @@ import Layout from "./Component/Layout";
 
 function App() {
   return (
-    <>LOL</>
-    // <BrowserRouter>
-    //   <Routes>
-    //     <Route path="/" element={<Layout />}></Route>
-    //   </Routes>
-    // </BrowserRouter>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}></Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
